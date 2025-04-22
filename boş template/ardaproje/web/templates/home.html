@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+
+{% load static %}
+
+{% block content %}
+<form  method="post">
+    {% csrf_token %}
+    <div class="container">
+  <div class="foto1">
+    <img src="{% static "css/insta.png" %}" alt="">
+    <div>
+        <input class="isim" type="text" placeholder="Telefon numarası,kullanıcıadı veya e-posta" name="name" required>
+        <br><br>
+        <input class="şifre" type="password" placeholder="Şifre" name="şifre" required>
+        <br><br><br>
+        <button class="buton" type='submit'>Giriş yap</button>
+
+        <hr class="hr1"> <p class="font1"> YA DA</p>  <hr class="hr2">
+        <br><br>
+        <a href="" ><img class="icon1" src="{% static "css/facebook.png" %}" alt=""><p class="link1">Facebook ile Giriş Yap</p></a>
+        <br><br><br>
+        <a href="" ><p class="link2">Şifreni mi unuttun?</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="container2">
+     <p class="hesap">Hesabın yok mu? <a href="" class="kaydol">Kaydol</a></p>
+    </div>
+
+</div>
+</form>
+
+<p class="font2">Uygulamayı indir</p>
+
+<div class="container3">
+    <img class="icon2" src="{% static "css/goggle.png" %}" alt="">
+    <img class="icon3" src="{% static "css/microsoft.png" %}" alt="">
+</div>
+
+{% endblock %}

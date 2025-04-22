@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    width: 190px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+
+.container{
+    width: 350px;
+    height: 420px;
+    border: 1px solid rgb(219, 219, 219);
+    margin: auto;
+    border-radius: 1px;
+    margin-top: 10px;
+    
+}
+.isim{
+    width: 260px;
+    height: 33px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 2px;
+    background-color: rgb(250, 250, 250);
+
+}
+.şifre{
+    width: 260px;
+    height: 33px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 2px;
+    background-color: rgb(250, 250, 250);
+
+    
+   
+}
+
+input:focus{
+    outline: none;
+ 
+}
+input::placeholder{
+    font-size: 12px;
+}
+
+.buton{
+    width: 265px;
+    height: 33px;
+    background-color: rgb(76,181 ,249 );
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-left: 40px;
+    position: relative;
+    bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hr1{
+    width: 100px;
+    position: relative;
+    right: 90px;
+    bottom: 10px;
+}
+.hr2{
+    width: 100px;
+    background-color: rgb(250, 250, 250);
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+.font1{
+    font-size: 12px;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    color: rgb(128,115 ,115 );
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.icon1{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    bottom: 113px;
+    left: 10px;
+
+}
+.link1{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    color: rgb(0,162 , 248);
+    font-weight: 600;
+    font-size: 14px;
+   
+    position: relative;
+    bottom: 150px;
+    left: 110px;
+}
+a{
+    text-decoration: none;
+}   
+
+.link1:hover{
+   
+    color: rgb(33, 45, 87);
+}
+.link2{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+  bottom: 210px;
+  left: 110px;
+  font-size: 14px;
+  color: rgb(33, 45, 87);
+  font-weight: 370;
+  
+}
+.container2{
+    width: 350px;
+    height: 60px;
+    border: 1px solid rgb(219, 219, 219);
+    margin: auto;
+    margin-top: 12px;
+    
+}
+.hesap{
+    position: relative;
+    left: 100px;
+    top:10px;
+    color: rgb(38, 38, 38);
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-size: 13px;
+    
+}
+.kaydol{
+    color: rgb(0,162 , 248);
+    font-weight: 500;
+}
+.container3{
+  position: relative;
+  left: 560px;
+  bottom: 45px;
+    
+}
+.icon2{
+    width: 140px;
+    height: 40px;
+   
+}
+.icon3{ 
+    width: 110px;
+    height: 40px;
+    position: relative;
+    right: 65px;
+}
+.font2{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: relative;
+    font-size: 14px;
+    left: 710px;
+    top: 3px;
+
+}
